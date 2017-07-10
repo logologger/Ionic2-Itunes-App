@@ -14,5 +14,10 @@
     If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will show you the way.
   </p>
 
+  <button primary (click)="goToSearch()">Go to Search</button>
+
+
+  <button primary [navPush]="theSearchPage">Search it Again</button>
+
   <button ion-button secondary menuToggle>Toggle Menu</button>
 </ion-content>
